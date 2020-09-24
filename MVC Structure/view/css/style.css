@@ -1,0 +1,820 @@
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid trasparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #007bff!important;
+
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #007bff!important;
+}
+
+.navbar-brand{
+	margin-left: 15px;
+}
+
+#heading{
+	font-size: 20px;
+}
+
+#logo{
+	width: 70px;
+	height: 70px;
+}
+
+.homeImage{
+	background-image: url('E:/WEBSITES/for_470/Section 2-20141035-CSE470/Code/MVC Structure/model/images/homeimage.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 755px;
+}
+
+.headerset{
+	padding-top: 300px;
+	box-sizing: border-box;
+}
+
+.headerset h1{
+	font-size: 80px;
+	padding-bottom: 50px;
+	text-shadow: 2px 2px 4px #000000;
+}
+/*DOWNWARD PART OF HOMEPAGE*/
+
+.welcome{
+	padding: 100px 0px 65px;
+	height: 600px;
+}
+
+.footer{
+	height: 45px;
+	padding-top: 10px;
+}
+
+.footer p{
+	font-size: 10px;
+}
+
+.serviceImage{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('E:/WEBSITES/for_470/Section 2-20141035-CSE470/Code/MVC Structure/model/images/serviceimage.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 550px;
+}
+
+.aboutImage{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('E:/WEBSITES/for_470/Section 2-20141035-CSE470/Code/MVC Structure/model/images/aboutimage.webp');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 550px;
+}
+
+.contactImage{
+	background-image: url('E:/WEBSITES/for_470/Section 2-20141035-CSE470/Code/MVC Structure/model/images/contactimage.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 550px;
+}
+
+/*SERVICE PAGE EXTRA CSS*/
+
+.headerset2{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset2 h1{
+	font-size: 80px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.headerset2 h3{
+	font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 50px auto 5px ;
+}
+
+.headerset2 h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 80px;
+	margin: 50px auto 5px ;
+}
+
+.program{
+	margin-top: 40px;
+	color: 	#0FAAD1;
+}
+.program-content{
+	margin-top: 30px;
+} 
+
+.our-program{
+	margin-top: 100px;
+}
+
+.uni-prog{
+	height: 200px;
+}
+
+.uni-prog h3{
+	color: #0FAAD1
+}
+
+.uni-pro-details{
+	color: #212529;
+	padding: 15px 0px 5px;
+}
+
+.program-content ul li{
+	margin-top: 10px;
+}
+
+.contents{
+	padding: 50px 0px 50px;
+	height: 475px;
+}
+
+.contents h3{
+	color: 	#0FAAD1;
+}
+
+.contents ul li{
+	margin-top: 10px;
+}
+
+.container-portion{
+	margin-top: 10px;
+}
+
+.content-portion h3{
+	padding: 10px 0 10px;
+}
+
+
+/*ABOUT PAGE EXTRA CSS*/
+
+.headerset3{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset3 h1{
+	font-size: 80px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.headerset3 h3{
+	font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 50px auto 5px ;
+
+}
+
+.headerset3 h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 80px;
+	margin: 50px auto 5px ;
+}
+
+.know-us{
+	padding: 100px 0px 50px;
+	height: 500px;
+}
+
+.know-us h1{
+	padding: 10px 0px 10px;
+}
+
+.mission-content{
+	margin-left: 30px;
+}
+
+
+.make-special{
+	padding: 50px 0px 50px;
+}
+.special{
+	margin-top: 20px;
+}
+
+/*CONTACT PAGE EXTRA CSS*/
+
+.headerset4{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset4 h1{
+	font-size: 80px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.headerset4 h3{
+	font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 50px auto 5px ;
+}
+
+.headerset4 h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 80px;
+	margin: 50px auto 5px ;
+}
+
+.contacts{
+	padding: 100px 0px 50px;
+	height: 470px;
+	margin-bottom: 50px;
+}
+
+.contacts h1{
+	padding-bottom: 35px;
+
+}
+
+.portion{
+	padding: 20px 0px; 
+}
+
+.contacts h4{
+	padding: 15px 0px 5px;
+}
+
+.contacts p{
+	 font-size: 20px;
+	 font-weight: bold;
+}
+
+.imgsetting{
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+}
+
+.fa-envelope-o{
+	margin-top: 25px;
+}
+
+.fa-phone{
+	margin-top: 25px;
+}
+
+.fa-home{
+	margin-top: 25px;
+}
+
+
+
+@media(min-width: 992px){
+
+	.headerset h1{
+		font-size: 75px;
+	}
+
+	.headerset2 h1{
+		font-size: 75px;
+	}
+
+	.headerset2 h3{
+		font-size: 22px;
+	}
+
+	.headerset3 h1{
+		font-size: 75px;
+	}
+
+	.headerset3 h3{
+		font-size: 22px;
+	}
+
+	.headerset4 h1{
+		font-size: 75px;
+	}
+
+	.headerset4 h3{
+		font-size: 22px;
+	}
+
+	.welcome{
+	height: 700px;
+	}
+
+	.contents{
+		height: 500px;
+	}
+
+	.know-us{
+		height: 520px;
+	}
+
+	.contacts{
+		height: 450px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	.headerset h1{
+	font-size: 65px;
+	}
+
+	.headerset2 h1{
+	font-size: 65px;
+	}
+
+	.headerset2 h3{
+		font-size: 20px;
+	}
+
+	.headerset3 h1{
+	font-size: 65px;
+	}
+
+	.headerset3 h3{
+		font-size: 20px;
+	}
+
+	.headerset4 h1{
+	font-size: 65px;
+	}
+
+	.headerset4 h3{
+		font-size: 20px;
+	}
+
+	.welcome{
+	height: 800px;
+	}
+
+	.contents{
+		height: 570px;
+	}
+
+	.know-us{
+		height: 670px;
+	}
+
+	.contacts{
+		height: 500px;
+	}
+
+	#heading{
+		font-size: 19px;
+	}
+
+	#logo{
+		width: 67px;
+		height: 67px;
+	}
+
+	.navbar-brand{
+		margin-left: 14px;
+	}
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+	
+	.headerset h1{
+	font-size: 55px;
+	}
+
+	.headerset2 h1{
+	font-size: 55px;
+	}
+
+	.headerset2 h3{
+		font-size: 17px;
+	}
+
+	.headerset3 h1{
+		font-size: 55px;
+	}
+
+	.headerset3 h3{
+		font-size: 17px;
+	}
+
+	.headerset4 h1{
+		font-size: 55px;
+	}
+
+	.headerset4 h3{
+		font-size: 17px;
+	}
+
+	.welcome{
+	height: 1100px;
+	}
+
+	.contents{
+		height: 770px;
+	}
+
+	.know-us{
+		height: 870px;
+	}
+
+	.contacts{
+		height: 550px;
+	}
+
+	#heading{
+		font-size: 18px;
+	}
+
+	#logo{
+		width: 65px;
+		height: 65px;
+	}
+	.navbar-brand{
+		margin-left: 14px;
+	}
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+	
+	.headerset h1{
+	font-size: 50px;
+	}
+
+	.headerset2 h1{
+		font-size: 50px;
+	}
+
+	.headerset2 h3{
+		font-size: 15px;
+	}
+
+	.headerset3 h1{
+		font-size: 50px;
+	}
+
+	.headerset3 h3{
+		font-size: 15px;
+	}
+
+	.headerset4 h1{
+		font-size: 50px;
+	}
+
+	.headerset4 h3{
+		font-size: 15px;
+	}
+
+	.welcome{
+	height: 1300px;
+	}
+
+	.contents{
+		height: 1050px;
+	}
+
+	.know-us{
+		height: 950px;
+	}
+
+	.contacts{
+		height: 950px;
+	}
+
+	#heading{
+		font-size: 17px;
+	}
+
+	#logo{
+		width: 63px;
+		height: 63px;
+	}
+
+	.navbar-brand{
+		margin-left: 13px;
+	}
+
+}
+
+@media(min-width: 425px) and (max-width: 479px){
+
+	.headerset h1{
+	font-size: 45px;
+	}
+
+	.headerset2 h1{
+		font-size: 45px;
+	}
+	
+	.headerset2 h3{
+		font-size: 13px;
+	}
+
+	.headerset3 h1{
+		font-size: 45px;
+	}
+	
+	.headerset3 h3{
+		font-size: 13px;
+	}
+
+	.headerset4 h1{
+		font-size: 45px;
+	}
+	
+	.headerset4 h3{
+		font-size: 13px;
+	}
+
+	.welcome{
+	height: 1400px;
+	}
+
+	.contents{
+		height: 1100px;
+	}
+
+	.know-us{
+		height: 1075px;
+	}
+
+	.contacts{
+		height: 1040px;
+	}
+
+	#heading{
+		font-size: 16px;
+	}
+
+	#logo{
+		width: 59px;
+		height: 59px;
+	}
+
+	.navbar-brand{
+		margin-left: 13px;
+	}
+}
+
+@media(min-width: 390px) and (max-width: 424px){
+
+	.headerset h1{
+		font-size: 45px;
+	}
+
+	.headerset2 h1{
+		font-size: 45px;
+	}
+	
+	.headerset2 h3{
+		font-size: 13px;
+	}
+
+	.headerset3 h1{
+		font-size: 45px;
+	}
+	
+	.headerset3 h3{
+		font-size: 13px;
+	}
+
+	.headerset4 h1{
+		font-size: 45px;
+	}
+	
+	.headerset4 h3{
+		font-size: 13px;
+	}
+
+	.welcome{
+	height: 1475px;
+	}
+
+	.contents{
+		height: 1100px;
+	}
+
+	.know-us{
+		height: 1175px;
+	}
+
+	.contacts{
+		height: 1040px;
+	}	
+
+	#heading{
+		font-size: 14.5px;
+	}
+
+	#logo{
+		width: 56px;
+		height: 56px;
+	}
+
+	.navbar-brand{
+		margin-left: 5px;
+	}
+
+}
+
+@media(min-width: 350px) and (max-width: 389px){
+
+	.headerset h1{
+		font-size: 45px;
+	}
+
+	.headerset2 h1{
+		font-size: 45px;
+	}
+	
+	.headerset2 h3{
+		font-size: 13px;
+	}
+
+	.headerset3 h1{
+		font-size: 45px;
+	}
+	
+	.headerset3 h3{
+		font-size: 13px;
+	}
+
+	.headerset4 h1{
+		font-size: 45px;
+	}
+	
+	.headerset4 h3{
+		font-size: 13px;
+	}
+
+	.welcome{
+	height: 1600px;
+	}
+
+	.contents{
+		height: 1150px;
+	}
+
+	.know-us{
+		height: 1275px;
+	}
+
+	.contacts{
+		height: 1040px;
+	}	
+
+	#heading{
+		font-size: 12px;
+	}
+
+	#logo{
+		width: 45px;
+		height: 45px;
+	}
+
+	.navbar-brand{
+		margin-left: 2px;
+	}
+
+}
+
+@media(min-width: 310px) and (max-width: 349px){
+
+	.headerset h1{
+		font-size: 45px;
+	}
+
+	.headerset2 h1{
+		font-size: 45px;
+	}
+	
+	.headerset2 h3{
+		font-size: 13px;
+	}
+
+	.headerset3 h1{
+		font-size: 45px;
+	}
+	
+	.headerset3 h3{
+		font-size: 13px;
+	}
+
+	.headerset4 h1{
+		font-size: 45px;
+	}
+	
+	.headerset4 h3{
+		font-size: 13px;
+	}
+
+	.welcome{
+	height: 1700px;
+	}
+
+	.contents{
+		height: 1300px;
+	}
+
+	.know-us{
+		height: 1475px;
+	}
+
+	.contacts{
+		height: 1040px;
+	}	
+
+	#heading{
+		font-size: 10.5px;
+	}
+
+	#logo{
+		width: 40px;
+		height: 40px;
+	}
+
+	.navbar-brand{
+		margin-left: 1.5px;
+	}
+
+}
+
+@media(min-width: 270px) and (max-width: 309px){
+
+	.headerset h1{
+		font-size: 45px;
+	}
+
+	.headerset2 h1{
+		font-size: 45px;
+	}
+	
+	.headerset2 h3{
+		font-size: 13px;
+	}
+
+	.headerset3 h1{
+		font-size: 45px;
+	}
+	
+	.headerset3 h3{
+		font-size: 13px;
+	}
+
+	.headerset4 h1{
+		font-size: 45px;
+	}
+	
+	.headerset4 h3{
+		font-size: 13px;
+	}
+
+	.welcome{
+		height: 1900px;
+	}
+
+	.contents{
+		height: 1350px;
+	}
+
+	.know-us{
+		height: 1650px;
+	}
+
+	.contacts{
+		height: 1040px;
+	}	
+
+	#heading{
+		font-size: 8.5px;
+	}
+
+	#logo{
+		width: 28px;
+		height: 28px;
+	}
+
+	.navbar-brand{
+		margin-left: 1px;
+	}
+
+}
